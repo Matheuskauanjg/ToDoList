@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "categoria": "História",
+      "nome": "Revolução Francesa",
+      "descricao": "Um marco na história que derrubou a monarquia na França.",
+      "detalhes": "A Revolução Francesa ocorreu de 1789 a 1799 e trouxe mudanças significativas ao sistema político e social do país."
+    },
+    {
+      "id": 2,
+      "categoria": "Geografia",
+      "nome": "Clima Tropical",
+      "descricao": "Regiões quentes e úmidas ao redor do equador.",
+      "detalhes": "Climas tropicais são caracterizados por altas temperaturas durante todo o ano e chuvas sazonais."
+    }
+  ]
+  
