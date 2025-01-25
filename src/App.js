@@ -1,12 +1,12 @@
-import React from 'react';
-import Header from './components/Header';
-import Home from './pages/Home';
+import React from "react";
+import Header from "./components/Header"; // Importando o Header.js
+import Home from "./pages/Home"; // Importando a página Home
 
 function App() {
   return (
-    <div>
-      <Header />
-      <Home />
+    <div className="App">
+      <Header /> {/* Componente Header */}
+      <Home /> {/* Componente Home */}
     </div>
   );
 }
