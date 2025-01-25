@@ -1,12 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Sistema de Pesquisa Escolar</title>
-    <link rel="stylesheet" href="/style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-  </body>
-</html>
+import React from "react";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+
+function App() {
+  return (
+    <div className="App">
+      <Header />
+      <Home />
+    </div>
+  );
+}
+
+export default App;
