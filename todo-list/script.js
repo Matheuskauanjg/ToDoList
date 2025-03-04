@@ -9,11 +9,9 @@ function addTask() {
 
     const taskList = document.getElementById('task-list');
     
-    // Criar item de tarefa
     const listItem = document.createElement('li');
     listItem.textContent = taskValue;
 
-    // Criar botão de excluir
     const deleteButton = document.createElement('button');
     deleteButton.textContent = "Excluir";
     deleteButton.className = "delete";
@@ -21,12 +19,9 @@ function addTask() {
         taskList.removeChild(listItem);
     };
 
-    // Adicionar botão de excluir ao item
     listItem.appendChild(deleteButton);
 
-    // Adicionar tarefa à lista
     taskList.appendChild(listItem);
 
-    // Limpar input
     taskInput.value = '';
 }
